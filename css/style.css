@@ -1,0 +1,223 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.custom-btn{
+    background-color: #4ba87d;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+.bar-icon{
+    display: none;
+}
+.nav-icon{
+    color: black;
+    width: fit-content;
+    margin-right: 5px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu li , .menu button{
+    border-bottom: 3px solid #4ba87d;
+    margin-right: 50px;
+    font-weight: 900;
+    padding: 10px;
+}
+.banner{
+
+    padding: 100px 10%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.blank-btn{
+    color: #4ba87d;
+    border: 2px solid #4ba87d;
+    background-color: white;
+}
+.banner-txt{
+    display: flex;
+    align-items: center;
+}
+.try-btn{
+    margin-right: 15px;
+    border: 2px solid #4ba87d;
+}
+.blackhead{
+    font-size: 60px;
+    margin: 10px;
+    font-weight: 900;
+}
+.banner-img{
+    display: flex;
+    align-items: center;
+}
+
+.reach{
+    background-color: #F7F7F7;
+    padding: 100px 15%;
+
+}
+.reach-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-image: url(../images/recharge.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.reach-content h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 900;
+
+}
+.services-sec{
+    padding: 100px  20%;
+    background-color: #CAEAC7;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.services, .customers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.service{
+    background-color: #fff;
+    box-shadow: 2px 2px 20px gray;
+}
+
+.service img{
+    width: 100%;
+}
+
+.service-txt{
+    padding: 25px ;
+}
+
+
+.learn{
+    color: #4ba87d;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.customer-sec, .brand-sec{
+    padding: 100px  20%;
+}
+
+.customer{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no repeat;
+    height: 220px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.customer  h1{
+    font-size: 50px;
+    margin: 0px;
+}
+
+.customer h3{
+    margin: 3px;
+}
+
+#one{
+    background-image:url(../images/customers/customer1.jpg);
+}
+#two{
+    background-image: url(../images/customers/customer2.jpg);
+}
+#three{
+    background-image: url(../images/customers/customer3.jpg);
+}
+
+.long-head{
+    font-size: 45px;
+    font-weight: 900;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+}
+.contact-form input{
+    padding:15px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: none;
+    margin-right: 20px;
+    border: 2px solid lightgray;
+}
+.contact-sec{
+    margin-top: 50px;
+}
+.green-txt{
+    color: #4ba87d;
+    text-align: center;
+}
+
+.brand-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-sec{
+    background-color: #4BA87D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+.plan-sec h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+footer {
+    padding: 50px 15%;
+}
+.footer-txt{
+    
+    display: grid;
+    grid-template-columns: 2fr repeat(4, 1fr);
+    margin-bottom: 20px;
+}
+footer p{
+    font-weight: 700;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer hr{
+    border: 2px solid lightgray;
+}

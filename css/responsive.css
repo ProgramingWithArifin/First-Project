@@ -1,0 +1,74 @@
+@media (max-width:1300px){
+    .brand-sec{
+        padding: 100px 10%;
+    }
+}
+@media (max-width:1000px){
+    .menu{
+        display: none;
+    }
+    .bar-icon{
+        display: block;
+    }
+    .banner{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-img{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .banner-img img{
+        width: 70%;
+    }
+    .services, .customers{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .brand-logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .brand-logo img{
+        margin-bottom: 20px;
+
+    }
+    .footer-txt{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .footer-copyright{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width:600px){
+    .contact-form input{
+        margin-bottom: 20px;
+    }
+    .blackhead{
+        margin-left: 0px;
+    }
+    ul{
+        padding: 0%;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .blackhead{
+        font-size: 45px;
+    }
+}
+
+@media (max-width:400px){
+    .try-btn{
+        margin-bottom: 20px;
+    }
+    .reach-content h1{
+        font-size: 45px;
+    }
+    .long-head{
+        font-size: 30px;
+    }
+}
